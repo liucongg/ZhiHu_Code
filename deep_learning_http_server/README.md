@@ -1,0 +1,2 @@
+news_classification 文件夹内是训练新闻分类模型代码，包含数据预处理、训练模型以及存pb模型代码。
+http_server 文件夹内是部署web服务代码。
