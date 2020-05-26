@@ -1,0 +1,10 @@
+path:
+  vocab_file: /home/nlp/lcong/news_classification/data/chinese_roberta_wwm_ext_L-12_H-768_A-12/vocab.txt
+  model_path: /home/nlp/lcong/news_classification/new_classification_bert/model/bert_model.pb
+
+hyperparameters:
+  http_id: 127.0.0.1
+  port: 5555
+  gpu_id: "1"
+  gpu_memory_fraction: 0.7
+  max_seq_length: 512
