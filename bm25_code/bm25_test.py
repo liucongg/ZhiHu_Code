@@ -26,3 +26,4 @@ query = "走私了两万元，在法律上应该怎么量刑？"
 query = list(jieba.cut(query))
 scores = bm25_model.get_documents_score(query)
 print(scores)
+
